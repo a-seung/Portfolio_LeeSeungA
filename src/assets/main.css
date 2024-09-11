@@ -4,29 +4,89 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   font-weight: normal;
+  font-family: 'Pretendard-Regular';
+}
+
+.big-title {
+  @apply text-4xl font-bold text-primary mb-2;
+}
+
+.small-title {
+  @apply text-2xl font-bold text-primary mb-2;
+}
+
+.menu-item {
+  @apply cursor-pointer text-gray-600 hover:text-primary;
+}
+
+.menu-item-active {
+  @apply bg-white;
+}
+
+.line-content {
+  @apply flex justify-between items-center border-b border-ggray py-2;
+}
+
+.line-content-title {
+  @apply font-semibold;
+}
+
+.education-period {
+  @apply text-gray-400 text-xs;
+}
+
+.line-content-right {
+  @apply text-right;
+}
+
+.skill-set-content {
+  @apply flex-col border-b border-ggray py-2;
+}
+
+.skill-set-group {
+  @apply flex py-2 mt-2
+}
+
+.skill-item {
+  @apply justify-center items-center mx-10;
+}
+
+.skill-image {
+  @apply w-12 h-12 object-contain
+}
+
+.skill-name {
+  @apply mt-2;
 }
 
 a,
 .green {
-  text-decoration: none;
+  /* text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
-  padding: 3px;
+  padding: 3px; */
 }
 
 @media (hover: hover) {
-  a:hover {
+  /* a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
-  body {
+  /* body {
     display: flex;
     place-items: center;
   }
@@ -35,5 +95,5 @@ a,
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
+  } */
 }
