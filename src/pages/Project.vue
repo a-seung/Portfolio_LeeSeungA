@@ -1,6 +1,5 @@
 <template>
-    <main class="">
-      <section id="project" class="mb-20">
+      <section id="project" class="section-group">
         <h1 class="big-title">Project</h1>
         <div>
           <div class="line-content">
@@ -55,7 +54,7 @@
         quae velit omnis?
       </p>
       </section>
-    </main>
+
   </template>
   
   <script setup></script>

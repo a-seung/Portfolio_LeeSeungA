@@ -1,13 +1,24 @@
 <template>
-  <aside class="w-1/4 bg-secondary py-10">
+  <aside class="fixed w-60 h-screen bg-secondary py-10">
     <div class="flex flex-col items-center">
-      <div class="w-32 h-32 bg-gray-300 rounded-full my-6"></div> <!-- 프로필 이미지 자리 -->
+      <div class="rounded-full my-6 overflow-hidden  w-44 h-56">
+        <img src="@/assets/images/profileImg.jpg" alt="Profile Image" class="w-full h-full object-cover rounded-[50%] aspect-[3/4]" />
+      </div>
+      <!-- 프로필 이미지 자리 -->
       <nav class="w-full my-10">
-        <div class="space-y-4 text-center ">
-          <div class="menu-item" :class="menu-item-active"><a href="#introduction">Introduction</a></div>
-          <div class="menu-item" :class="menu-item-active"><a href="#skill-set">Skill Set</a></div>
-          <div class="menu-item" :class="menu-item-active"><a href="#project">Project</a></div>
-          <div class="menu-item" :class="menu-item-active"><a href="#contact">Contact</a></div>
+        <div class="text-center">
+          <div :class="['menu-item', activeSection === 'introduction' ? 'menu-item-active' : '']">
+            <a href="#introduction">Introduction</a>
+          </div>
+          <div :class="['menu-item', activeSection === 'skill-set' ? 'menu-item-active' : '']">
+            <a href="#skill-set">Skill Set</a>
+          </div>
+          <div :class="['menu-item', activeSection === 'project' ? 'menu-item-active' : '']">
+            <a href="#project">Project</a>
+          </div>
+          <div :class="['menu-item', activeSection === 'contact' ? 'menu-item-active' : '']">
+            <a href="#contact">Contact</a>
+          </div>
         </div>
       </nav>
     </div>
@@ -15,7 +26,13 @@
 </template>
 
 <script setup>
-// Sidebar에 필요한 추가 로직을 여기에 작성할 수 있습니다.
+// 현재 활성화된 섹션을 받기 위한 prop
+const props = defineProps({
+  activeSection: {
+    type: String,
+    default: 'introduction',
+  },
+});
 </script>
 
 <style scoped>

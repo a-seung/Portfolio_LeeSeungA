@@ -14,25 +14,38 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  /* padding: 2rem; */
   font-weight: normal;
   font-family: 'Pretendard-Regular';
 }
 
+
+
+.section-group {
+@apply mb-28
+}
+
+.small-group{
+  @apply mb-12
+}
+
 .big-title {
-  @apply text-4xl font-bold text-primary mb-2;
+  @apply text-2xl sm:text-4xl font-bold text-primary mb-2;
 }
 
 .small-title {
-  @apply text-2xl font-bold text-primary mb-2;
+  @apply text-lg sm:text-2xl font-bold text-primary mb-2;
 }
 
 .menu-item {
-  @apply cursor-pointer text-gray-600 hover:text-primary;
+  @apply cursor-pointer flex justify-center items-center text-lg text-gray-600 hover:text-primary h-16 border-y;
 }
 
 .menu-item-active {
-  @apply bg-white;
+  @apply bg-white font-extrabold text-primary !important;
+}
+
+.slim-bar-icon {
+  @apply cursor-pointer text-white; 
 }
 
 .line-content {

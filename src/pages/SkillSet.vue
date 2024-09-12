@@ -1,5 +1,5 @@
 <template>
-  <section id="skill-set" class="mb-20">
+  <section id="skill-set" class="section-group">
     <h1 class="big-title">Skill Set</h1>
     <div>
       <div class="skill-set-content">
