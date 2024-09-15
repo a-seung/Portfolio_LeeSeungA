@@ -16,6 +16,7 @@
   margin: 0 auto;
   font-weight: normal;
   font-family: 'Pretendard-Regular';
+  font-size: smaller;
 }
 
 
@@ -49,19 +50,31 @@
 }
 
 .line-content {
-  @apply flex justify-between items-center border-b border-ggray py-2;
+  @apply flex items-center border-b border-ggray py-2 ;
+}
+
+.line-content-group-1 {
+  @apply w-52 sm:w-60
+}
+
+.line-content-group-2 {
+  @apply w-40
+}
+
+.line-content-group-3 {
+  @apply text-right flex-grow
 }
 
 .line-content-title {
   @apply font-semibold;
 }
 
-.education-period {
-  @apply text-gray-400 text-xs;
-}
-
 .line-content-right {
   @apply text-right;
+}
+
+.education-period {
+  @apply text-gray-400 text-xs;
 }
 
 .skill-set-content {
@@ -98,15 +111,8 @@ a,
   } */
 }
 
-@media (min-width: 1024px) {
-  /* body {
-    display: flex;
-    place-items: center;
-  }
-
+@media (min-width: 640px) {
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  } */
+    font-size: medium;
+  }
 }
