@@ -50,7 +50,7 @@
 }
 
 .line-content {
-  @apply flex items-center border-b border-ggray py-2 ;
+  @apply flex items-center border-b border-ggray py-4 ;
 }
 
 .line-content-group-1 {
@@ -78,7 +78,7 @@
 }
 
 .skill-set-content {
-  @apply flex-col border-b border-ggray py-2;
+  @apply flex-col border-b border-ggray py-4;
 }
 
 .skill-set-group {
@@ -86,7 +86,7 @@
 }
 
 .skill-item {
-  @apply justify-center items-center mx-10;
+  @apply flex flex-col items-center text-center mx-10;
 }
 
 .skill-image {

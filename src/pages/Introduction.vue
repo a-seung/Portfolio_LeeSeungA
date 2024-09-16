@@ -3,9 +3,9 @@
   <section id="introduction" class="section-group">
     <div class="small-group">
       <h1 class="big-title">👩🏻‍💻 Introduction</h1>
-      <p class="pt-2 text-xl font-semibold"> "다시 만나고 싶은 개발자가 되기"</p>
+      <p class="pt-2 text-lg sm:text-xl font-semibold">"다시 만나고 싶은 개발자가 되기"</p>
       <p class="line-content"> 
-        <br> 안녕하세요. "다시 만나고 싶은 개발자"가 되고 싶은 이승아 입니다.☺️
+        안녕하세요. "다시 만나고 싶은 개발자"가 되고 싶은 이승아 입니다.☺️
         <br> 프로젝트를 진행하면서 개발 실력이 좋은 것도 중요하지만, 의사소통 능력이 정말 중요하다는 것을 깨달았습니다.
         <br> 가구 회사에서 2년간 판매 매니저로 근무하면서 많은 고객들을 만난 경험이 있습니다.
         <br> 이 경험을 토대로 고객의 니즈를 충족시키는 것은 물론, 같이 일하는 동료에게도 함께 일하고 싶은 팀원이 되고 싶습니다.
