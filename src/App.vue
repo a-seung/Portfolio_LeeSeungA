@@ -6,7 +6,7 @@
 
 
     <!-- Main Content Area for Routed Pages -->
-    <div class="flex-1 ml-20 sm:ml-60 overflow-y-auto">
+    <div class="flex-1 ml-20 sm:ml-60 overflow-y-auto min-h-screen p-10">
       <RouterView @updateActiveSection="updateActiveSection"/>
     </div>
   </div>

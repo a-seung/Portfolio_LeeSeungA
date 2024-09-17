@@ -1,6 +1,7 @@
 <template>
   <aside class="fixed w-60 h-screen bg-secondary py-10">
     <div class="flex flex-col items-center">
+      <div>이승아의 포트폴리오</div>
       <div class="rounded-full my-6 overflow-hidden  w-44 h-56">
         <img src="@/assets/images/profileImg.jpg" alt="Profile Image" class="w-full h-full object-cover rounded-[50%] aspect-[3/4]" />
       </div>
@@ -26,6 +27,17 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
+
+// 라우터 인스턴스 가져오기
+const router = useRouter();
+
+// Home 페이지로 이동하는 함수
+const goHome = () => {
+  console.log("Home 버튼 클릭됨");
+  router.push('/')
+};
+
 // 현재 활성화된 섹션을 받기 위한 prop
 const props = defineProps({
   activeSection: {

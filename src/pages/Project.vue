@@ -1,61 +1,31 @@
 <template>
-      <section id="project" class="section-group">
-        <h1 class="big-title">Project</h1>
+  <section id="project" class="section-group">
+    <h1 class="big-title">Project</h1>
+    <div>
+      <div class="line-content">
         <div>
-          <div class="line-content">
-            <p  class="line-content-title">Backend</p>
-          </div>
-          <div class="line-content">
-            <p class="line-content-title">Frontend</p>
-          </div>
-          <div class="line-content">
-            <p class="line-content-title">Collaboration Tool</p>
-          </div>
+          <button @click="goToProject1"><img src="/src/assets/SkillSet/backend/Java.png" alt=""></button>
         </div>
-        <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis
-        deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit
-        omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa
-        fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate,
-        corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi
-        quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta
-        nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed
-        cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora,
-        exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim
-        consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat
-        eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis
-        deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit
-        omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa
-        fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate,
-        corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi
-        quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta
-        nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed
-        cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora,
-        exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim
-        consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat
-        eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis
-        deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit
-        omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa
-        fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci autem dignissimos sed cupiditate,
-        corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi quae velit omnis? Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi
-        quae velit omnis?Adipisci autem dignissimos sed cupiditate, corporis deleniti enim consequatur deserunt dicta nemo ipsa fugiat eveniet rem tempora, exercitationem eligendi
-        quae velit omnis?
-      </p>
-      </section>
+        <p class="line-content-title"></p>
+      </div>
+      <div class="line-content">
+        <p class="line-content-title">Frontend</p>
+      </div>
+      <div class="line-content">
+        <p class="line-content-title">Collaboration Tool</p>
+      </div>
+    </div>
+    <div class="h-80"></div>
+  </section>
+</template>
 
-  </template>
-  
-  <script setup></script>
-  
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+// 버튼 클릭 시 /project1 경로로 이동하는 함수
+const goToProject1 = () => {
+  router.push({ name: 'Project1' })
+}
+</script>
