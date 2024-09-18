@@ -62,7 +62,8 @@ watch(activeSection, (newSection) => {
 })
 
 onMounted(() => {
-  observeSections() // 섹션 감지 함수 호출
+  observeSections(); // 섹션 감지 함수 호출
+
 })
 
 onUnmounted(() => {
