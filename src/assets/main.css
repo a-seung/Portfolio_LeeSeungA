@@ -20,6 +20,9 @@
 }
 
 
+.home-button {
+  @apply cursor-pointer text-lg font-semibold w-full text-center mb-4
+}
 
 .section-group {
 @apply mb-80
