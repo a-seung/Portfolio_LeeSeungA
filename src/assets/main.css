@@ -25,7 +25,7 @@
 }
 
 .section-group {
-@apply mb-80
+@apply mb-28 sm:mb-80
 }
 
 .small-group{
@@ -99,6 +99,20 @@
 .skill-name {
   @apply mt-2;
 }
+
+.project-group {
+  @apply mb-12 border-b border-ggray py-4
+}
+
+.project-big-title {
+  @apply text-2xl sm:text-4xl font-bold text-primary mb-2;
+}
+
+.project-small-title {
+  @apply text-lg sm:text-2xl font-bold text-primary mb-2;
+}
+
+
 
 a,
 .green {
