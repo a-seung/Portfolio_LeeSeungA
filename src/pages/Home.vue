@@ -28,6 +28,9 @@ const activeSection = ref('introduction')
 // 현재 컴포넌트에서 부모에게 이벤트로 activeSection을 전달합니다.
 const emit = defineEmits(['updateActiveSection'])
 
+// 전역적으로 observer 변수를 선언
+let observer = null
+
 // Intersection Observer 설정
 const handleIntersection = (entries) => {
   entries.forEach((entry) => {
@@ -67,8 +70,11 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
-  document.querySelectorAll('section').forEach((section) => {
-    observer.unobserve(section)
-  })
+  if (observer) {
+    document.querySelectorAll('section').forEach((section) => {
+      observer.unobserve(section)
+    })
+    observer.disconnect() // observer를 완전히 해제
+  }
 })
 </script>

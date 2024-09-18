@@ -34,7 +34,6 @@ const router = useRouter();
 
 // Home 페이지로 이동하는 함수
 const goHome = () => {
-  console.log("Home 버튼 클릭됨");
   router.push('/')
 };
 

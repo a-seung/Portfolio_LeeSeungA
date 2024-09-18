@@ -1,7 +1,13 @@
 <template>
   <section id="project1" class="section-group">
     <div class="project-group">
-      <p class="project-big-title">Project 1 : bebig</p>
+      <div class="flex justify-start items-center project-big-title mb-4">
+        <div @click="goBack" class="text-xl sm:text-2xl cursor-pointer">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="project-big-title ml-4">Project 1 : bebig</div>
+      </div>
+
       <div class="flex gap-8">
         <div class="w-1/2">
           <img :src="login" alt="login" />
@@ -16,9 +22,9 @@
             <li>프로젝트 기간 : 2024. 09. 06 ~ 2024. 10. 16</li>
             <li>F/E 2명, B/E 4명, 문서화 및 배포 1명</li>
           </div>
-          <div>
-            <a href="">배포 링크 <i class="fa-solid fa-arrow-right"></i></a>
-            <a href="">GitHub <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="project-link">
+            <a href="http://bbbbick.duckdns.org:5173/" class="mr-4">배포 링크 <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="https://github.com/ITYL-Bbbbick">GitHub <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -52,5 +58,13 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
 import login from '@/assets/images/project1/login.png';
+
+const router = useRouter();
+
+// 이전 페이지로 이동하는 함수
+const goBack = () => {
+  router.push('/');
+};
 </script>
