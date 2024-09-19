@@ -55,7 +55,7 @@
         </div>
 
         <p class="line-content-group-2">수료</p>
-        <li class="line-content-group-3">KB국민은행에서 주관하는 부트캠프 수강</li>
+        <p class="line-content-group-3">KB국민은행에서 주관하는 부트캠프 수강</p>
       </div>
     </div>
 
@@ -86,7 +86,7 @@
         <div class="line-content-group-1">
           <p class="education-period">2024. 10. 16</p>
           <p class="line-content-title">KB IT's Your Life</p>
-          <p class="line-content-title">최종 프로젝트 최우수상</p>
+          <p class="line-content-title">종합 실무 프로젝트 최우수상</p>
         </div>
 
         <p class="line-content-group-2">국민은행<br>(멀티캠퍼스)</p>

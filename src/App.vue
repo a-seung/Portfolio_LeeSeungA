@@ -6,7 +6,7 @@
 
 
     <!-- Main Content Area for Routed Pages -->
-    <div class="flex-1 ml-20 sm:ml-60 overflow-y-auto min-h-screen p-10">
+    <div class="flex-1 ml-20 md:ml-60 overflow-y-auto min-h-screen p-10">
       <RouterView @updateActiveSection="updateActiveSection"/>
     </div>
   </div>
@@ -18,7 +18,7 @@ import Sidebar from './components/Sidebar.vue'
 import Slimbar from './components/Slimbar.vue'
 import { RouterView } from 'vue-router'
 
-const isMobile = ref(window.innerWidth < 640)
+const isMobile = ref(window.innerWidth < 768)
 const activeSection = ref('introduction')
 
 
@@ -27,8 +27,9 @@ const updateActiveSection = (newSection) => {
 }
 
 // 화면 크기 변경 감지
+// sm:640 md:768 lg:1024
 const handleResize = () => {
-  isMobile.value = window.innerWidth < 640
+  isMobile.value = window.innerWidth < 768
 }
 
 
