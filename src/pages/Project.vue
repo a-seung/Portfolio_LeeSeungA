@@ -1,6 +1,6 @@
 <template>
   <section id="project" class="section-group">
-    <h1 class="big-title">Project</h1>
+    <h1 class="big-title">🎨 Project</h1>
     <div>
       <div class="line-content">
         <div>

@@ -1,6 +1,6 @@
 <template>
   <section id="skill-set" class="section-group">
-    <h1 class="big-title">Skill Set</h1>
+    <h1 class="big-title">🔨 Skill Set</h1>
     <div>
       <div class="skill-set-content">
         <p class="line-content-title">Backend</p>
@@ -12,6 +12,10 @@
           <div class="skill-item">
             <img :src="springIcon" alt="Spring" class="skill-image" />
             <p class="skill-name">Spring</p>
+          </div>
+          <div class="skill-item">
+            <img :src="mybatisIcon" alt="MyBatis" class="skill-image" />
+            <p class="skill-name">MyBatis</p>
           </div>
           <div class="skill-item">
             <img :src="mysqlIcon" alt="MySQL" class="skill-image" />
@@ -90,6 +94,7 @@
 <script setup>
 import javaIcon from '@/assets/SkillSet/backend/Java.png';
 import springIcon from '@/assets/SkillSet/backend/Spring.png';
+import mybatisIcon from '@/assets/SkillSet/backend/MyBatis.png';
 import mysqlIcon from '@/assets/SkillSet/backend/MySQL.png';
 import mariaDbIcon from '@/assets/SkillSet/backend/MariaDB.png';
 

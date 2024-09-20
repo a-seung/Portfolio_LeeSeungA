@@ -13,7 +13,7 @@
     </div>
 
     <div id="education" class="small-group">
-      <h2 class="small-title">🏫 Education</h2>
+      <h2 class="small-title">🏫 Educations</h2>
       <div>
         <div class="line-content">
           <div class="line-content-group-1">
