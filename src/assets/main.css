@@ -24,6 +24,10 @@
   @apply cursor-pointer text-lg font-semibold w-full text-center mb-4
 }
 
+.home-button-slimbar {
+  @apply cursor-pointer text-lg text-white
+}
+
 .section-group {
 @apply mb-28 sm:mb-80
 }
@@ -49,8 +53,13 @@
 }
 
 .slim-bar-icon {
-  @apply cursor-pointer text-white; 
+  @apply cursor-pointer text-lg text-white; 
 }
+
+.slim-bar-icon-active {
+  @apply text-primary; 
+}
+
 
 .line-content {
   @apply flex items-center border-b border-ggray py-4 ;
