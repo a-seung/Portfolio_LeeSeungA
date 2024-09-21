@@ -100,6 +100,14 @@
   @apply mt-2;
 }
 
+.project-intro {
+  @apply cursor-pointer flex gap-8
+}
+
+.project-title-img {
+  @apply w-1/3
+}
+
 .project-group {
   @apply mb-12 border-b border-ggray pb-4
 }
@@ -117,7 +125,7 @@
 }
 
 .project-small-title {
-  @apply text-lg sm:text-2xl font-bold text-primary mb-2;
+  @apply text-lg sm:text-2xl font-bold text-primary mb-4;
 }
 
 .project-link {
