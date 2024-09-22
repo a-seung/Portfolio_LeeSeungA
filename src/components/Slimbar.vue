@@ -1,7 +1,7 @@
 <template>
-  <aside class="fixed top-0 left-0 h-full bg-secondary p-4 w-16">
+  <aside class="fixed top-0 left-0 h-full bg-secondary p-4 w-12">
     <nav class="flex flex-col items-center space-y-6">
-     <div @click.prevent="goHome" class="home-button-slimbar" ><i class="fa-solid fa-house"></i></div>
+     <div @click.prevent="goHome" class="slim-bar-icon" ><i class="fa-solid fa-house"></i></div>
       <div :class="['slim-bar-icon', activeSection === 'introduction' ? 'slim-bar-icon-active' : '']">
         <button @click.prevent="navigateToSection('introduction')"><i class="fa-solid fa-user"></i></button>
       </div>

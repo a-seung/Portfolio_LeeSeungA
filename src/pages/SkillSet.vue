@@ -22,7 +22,7 @@
             <p class="skill-name">MySQL</p>
           </div>
           <div class="skill-item">
-            <img :src="mariaDbIcon" alt="MariaDB" class="w-12 h-12" />
+            <img :src="mariaDbIcon" alt="MariaDB" class="skill-image" />
             <p class="skill-name">MariaDB</p>
           </div>
         </div>
