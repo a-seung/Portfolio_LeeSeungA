@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="flex justify-center mt-4">
+
+    <p class="text-sm">이거 진짜 배포 된 건가?</p>
   </div>
 </template>
 
